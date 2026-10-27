@@ -1,0 +1,12 @@
+# git
+
+> Ganchos (pre-commit, post-receive) e automação de fluxos de versionamento.
+
+## 🛠️ Ferramentas & Utilitários
+- `git, git-hooks`
+
+## 📋 Boas Práticas
+- Utilize `set -euo pipefail` para garantir interrupção segura em caso de erros.
+- Documente flags e opções aceitas usando funções de ajuda (`--help`).
+- Valide permissões de execução (`chmod +x script.sh`) antes de rodar.
+- Verifique a sintaxe com `shellcheck script.sh` antes de comitar.
